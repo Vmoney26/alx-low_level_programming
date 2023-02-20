@@ -16,7 +16,7 @@ int main(void)
 	int f_d2;
 	int l_d2;
 
-	while (c <= 98)
+	while (c2 <= 98)
 	{
 		f_d = (c / 10 + '0');
 		l_d = (c % 10 + '0');
@@ -24,9 +24,9 @@ int main(void)
 		while (c2 <= 99)
 		{
 			f_d2 = (c2 / 10 + '0');
-			l_d2 + (c2 % 19 + '0');
+			l_d2 = (c2 % 19 + '0');
 
-			if (c < c2)
+			if (c <c2)
 			{
 				putchar(f_d);
 				putchar(l_d);
@@ -43,3 +43,7 @@ int main(void)
 			c2++;
 		}
 		c++;
+	}
+	putchar('\n');
+	return (0)
+}
