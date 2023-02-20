@@ -3,7 +3,13 @@
 /**
  * main - main block
  * description: Write a program that prints all possible different combinations of two digits
- * Return : 0
+ * different combination of two digits
+ * numbers must be seperated by ,, followed by a space
+ * the two digits must be different
+ * 01 and 10 are considered the same combination of the two digit 0 and 1
+ * print only the smallest combination of the digit
+ * numbers should be printed in ascending order
+ * Return : 0 (Success)
  */
 int main(void)
 {
