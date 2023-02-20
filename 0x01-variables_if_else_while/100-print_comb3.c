@@ -9,6 +9,7 @@
  * 01 and 10 are considered the same combination of the two digit 0 and 1
  * print only the smallest combination of the digit
  * numbers should be printed in ascending order
+ * all code should be in main function
  * Return : 0 (Success)
  */
 int main(void)
